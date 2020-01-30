@@ -13,9 +13,9 @@ function! s:autoload_lsp()
   packadd VimCompletesMe
   packadd vim-vsnip-integ
   packadd vim-vsnip
-  packadd asyncomplete-lsp
   packadd vim-lsp-settings
   packadd vim-lsp
+  packadd asyncomplete-lsp
   packadd asyncomplete
 endfunction
 
