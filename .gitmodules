@@ -1,0 +1,39 @@
+[submodule "pack/gui/opt/devicons"]
+	path = pack/gui/opt/devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "pack/gui/start/nerdtree"]
+	path = pack/gui/opt/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "pack/gui/opt/nerdtree-syntax"]
+	path = pack/gui/opt/nerdtree-syntax
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+[submodule "pack/gui/start/smyck"]
+	path = pack/gui/start/smyck
+	url = https://github.com/dim13/smyck.vim
+[submodule "pack/lsp/start/async"]
+	path = pack/lsp/start/async
+	url = https://github.com/prabirshrestha/async.vim
+[submodule "pack/lsp/opt/asyncomplete"]
+	path = pack/lsp/opt/asyncomplete
+	url = https://github.com/prabirshrestha/asyncomplete.vim
+[submodule "pack/lsp/opt/asyncomplete-lsp"]
+	path = pack/lsp/opt/asyncomplete-lsp
+	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
+[submodule "pack/lsp/opt/vim-lsp"]
+	path = pack/lsp/opt/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "pack/lsp/opt/vim-lsp-settings"]
+	path = pack/lsp/opt/vim-lsp-settings
+	url = https://github.com/mattn/vim-lsp-settings
+[submodule "pack/lsp/opt/vim-lsp-icons"]
+	path = pack/lsp/opt/vim-lsp-icons
+	url = https://github.com/mattn/vim-lsp-icons
+[submodule "pack/lsp/opt/vim-vsnip"]
+	path = pack/lsp/opt/vim-vsnip
+	url = https://github.com/hrsh7th/vim-vsnip
+[submodule "pack/lsp/opt/vim-vsnip-integ"]
+	path = pack/lsp/opt/vim-vsnip-integ
+	url = https://github.com/hrsh7th/vim-vsnip-integ
+[submodule "pack/lsp/opt/VimCompletesMe"]
+	path = pack/lsp/opt/VimCompletesMe
+	url = https://github.com/ajh17/VimCompletesMe
