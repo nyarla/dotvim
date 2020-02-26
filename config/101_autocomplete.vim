@@ -17,9 +17,16 @@ function! s:autoload_lsp()
   packadd vim-lsp
   packadd asyncomplete-lsp
   packadd asyncomplete
+  packadd asyncomplete-file
 endfunction
 
 augroup autoload-lsp
   autocmd!
   autocmd VimEnter * call s:autoload_lsp()
+  autocmd User asyncomplete_setup call asyncomplete#register_source(asyncomplete#sources#file#get_source_options({
+      \ 'name': 'file',
+      \ 'whitelist': ['*'],
+      \ 'priority': 10,
+      \ 'completor': function('asyncomplete#sources#file#completor')
+      \ }))
 augroup END

@@ -49,3 +49,6 @@
 [submodule "pack/ft/opt/golang"]
 	path = pack/ft/opt/golang
 	url = https://github.com/mattn/vim-goimports
+[submodule "pack/lsp/opt/asyncomplete-file"]
+	path = pack/lsp/opt/asyncomplete-file
+	url = https://github.com/prabirshrestha/asyncomplete-file.vim
