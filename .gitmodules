@@ -46,3 +46,6 @@
 [submodule "pack/ft/opt/css3"]
 	path = pack/ft/opt/css3
 	url = https://github.com/hail2u/vim-css3-syntax
+[submodule "pack/ft/opt/golang"]
+	path = pack/ft/opt/golang
+	url = https://github.com/mattn/vim-goimports
