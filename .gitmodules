@@ -37,3 +37,9 @@
 [submodule "pack/lsp/opt/VimCompletesMe"]
 	path = pack/lsp/opt/VimCompletesMe
 	url = https://github.com/ajh17/VimCompletesMe
+[submodule "pack/ft/start/firestore"]
+	path = pack/ft/start/firestore
+	url = https://github.com/delphinus/vim-firestore
+[submodule "pack/ft/opt/typescript"]
+	path = pack/ft/opt/typescript
+	url = https://github.com/leafgarland/typescript-vim
