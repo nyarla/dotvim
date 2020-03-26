@@ -40,9 +40,6 @@
 [submodule "pack/ft/start/firestore"]
 	path = pack/ft/start/firestore
 	url = https://github.com/delphinus/vim-firestore
-[submodule "pack/ft/opt/typescript"]
-	path = pack/ft/opt/typescript
-	url = https://github.com/leafgarland/typescript-vim
 [submodule "pack/ft/opt/css3"]
 	path = pack/ft/opt/css3
 	url = https://github.com/hail2u/vim-css3-syntax
@@ -52,3 +49,6 @@
 [submodule "pack/lsp/opt/asyncomplete-file"]
 	path = pack/lsp/opt/asyncomplete-file
 	url = https://github.com/prabirshrestha/asyncomplete-file.vim
+[submodule "yats"]
+	path = pack/ft/opt/typescript
+	url = https://github.com/HerringtonDarkholme/yats.vim
