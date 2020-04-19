@@ -52,3 +52,6 @@
 [submodule "yats"]
 	path = pack/ft/opt/typescript
 	url = https://github.com/HerringtonDarkholme/yats.vim
+[submodule "pack/ft/start/SPVM"]
+	path = pack/ft/start/SPVM
+	url = https://github.com/nyarla/vim-syntax-spvm
