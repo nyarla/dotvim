@@ -55,3 +55,6 @@
 [submodule "pack/ft/start/SPVM"]
 	path = pack/ft/start/SPVM
 	url = https://github.com/nyarla/vim-syntax-spvm
+[submodule "pack/lsp/opt/ale"]
+	path = pack/lsp/opt/ale
+	url = https://github.com/dense-analysis/ale
