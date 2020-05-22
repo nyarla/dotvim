@@ -22,21 +22,31 @@ function! s:autoload_lsp()
   let g:ale_fix_on_save = 1
 
   let g:ale_fixers = {
+    \ 'css' : ['prettier'],
     \ 'javascript' : ['prettier'],
     \ 'json' : ['prettier'],
-    \ 'typescript' : ['prettier']
+    \ 'nix' : ['nixpkgs-fmt'],
+    \ 'scss' : ['prettier'],
+    \ 'typescript' : ['prettier'],
+    \ 'yaml' : ['prettier'],
   \ }
 
   packadd ale
-endfunction
 
-augroup autoload-lsp
-  autocmd!
-  autocmd VimEnter * call s:autoload_lsp()
   autocmd User asyncomplete_setup call asyncomplete#register_source(asyncomplete#sources#file#get_source_options({
       \ 'name': 'file',
       \ 'whitelist': ['*'],
       \ 'priority': 10,
       \ 'completor': function('asyncomplete#sources#file#completor')
       \ }))
+  autocmd User lsp_setup call lsp#register_server({
+      \ 'name': 'rnix-lsp',
+      \ 'cmd': {server_info->[&shell, &shellcmdflag, 'rnix-lsp']},
+      \ 'whitelist': ['nix'],
+      \ })
+endfunction
+
+augroup autoload-lsp
+  autocmd!
+  autocmd VimEnter * call s:autoload_lsp()
 augroup END
