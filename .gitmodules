@@ -58,3 +58,6 @@
 [submodule "pack/lsp/opt/ale"]
 	path = pack/lsp/opt/ale
 	url = https://github.com/dense-analysis/ale
+[submodule "pack/ft/start/svelts"]
+	path = pack/ft/start/svelte
+	url = https://github.com/evanleck/vim-svelte
