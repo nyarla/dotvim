@@ -23,11 +23,13 @@ function! s:autoload_lsp()
 
   let g:ale_fixers = {
     \ 'css' : ['prettier'],
+    \ 'html' : ['prettier'],
     \ 'javascript' : ['prettier'],
     \ 'json' : ['prettier'],
     \ 'nix' : ['nixpkgs-fmt'],
     \ 'scss' : ['prettier'],
     \ 'typescript' : ['prettier'],
+    \ 'typescriptreact' : ['prettier'],
     \ 'yaml' : ['prettier'],
   \ }
 
