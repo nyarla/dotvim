@@ -23,6 +23,7 @@ function! s:autoload_lsp()
 
   let g:ale_fixers = {
     \ 'css' : ['prettier'],
+    \ 'go' : ['gofmt'],
     \ 'html' : ['prettier'],
     \ 'javascript' : ['prettier'],
     \ 'json' : ['prettier'],
